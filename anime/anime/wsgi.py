@@ -15,4 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'anime.settings')
 
 application = get_wsgi_application()
 
-
+app = application
