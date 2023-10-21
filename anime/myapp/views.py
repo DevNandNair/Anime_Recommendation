@@ -59,4 +59,5 @@ def recommend_anime(request):
 
    
  
-
+def no_favicon(request):
+    return HttpResponse(status=204)
